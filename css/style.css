@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2 family=DM+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2 family=Roboto+Mono:wght@400;500&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+.menu{
+	background-color: black;
+	color: white;
+	border: 10px solid red;
+	margin:2px;
+	width: 10%;
+	float:left;
+}
+
+[class*="col-"]{
+	float:left
+}
+
+.content{
+	width:78%;
+	padding:10px;
+	margin:2px;
+	float:left;
+	background-color:orange;
+	color:white;
+}
+
+.topics{
+	width:10%;
+	float:left;
+	background-color:red;
+	color:white;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+}
+ 
+.title {
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 0px;
+  background-color: black;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 20pt;
+  margin: auto;
+  border-width: 1px;
+  width: 65%;
+  color: white;
+  text-align: center;
+}
+ 
+.card {
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 0px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 10px;
+  height: 140px;
+}
+ 
+.card-title {
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 500;
+  font-size: 40pt;
+}
+ 
+.card-content {
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  font-size: 15pt;
+}
+ 
+#html {
+  background-color: rgb(277, 88, 53);
+}
+ 
+#css {
+  background-color: rgb(46, 111, 173);
+}
+ 
+#js {
+  background-color: rgb(215, 160, 67);
+}
